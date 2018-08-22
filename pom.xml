@@ -1,22 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>sub</groupId>
-  <artifactId>sub1</artifactId>
-  <version>2</version>
-  <name>New Project Using SchemaCrawler</name>
+  <groupId>mannem</groupId>
+  <artifactId>mannem1</artifactId>
+  <version>1</version>
+  <name>Additional SchemaCrawler Database Connector</name>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.hsqldb</groupId>
-      <artifactId>hsqldb</artifactId>
-      <version>2.4.0</version>
-      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>us.fatehi</groupId>
@@ -26,8 +20,7 @@
   </dependencies>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <schemacrawler.version>14.20.04</schemacrawler.version>
-    <skip.signing.artifacts>true</skip.signing.artifacts>
+    <schemacrawler.version>14.21.02</schemacrawler.version>
   </properties>
   <build>
     <plugins>
