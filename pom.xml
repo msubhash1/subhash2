@@ -19,7 +19,9 @@
       </snapshots>
     </repository>
   </repositories>
-  
+   <configuration>
+                    <webXml>WebContent\WEB-INF\web.xml</webXml>
+                </configuration>
   
   <dependencies>
     <dependency>
