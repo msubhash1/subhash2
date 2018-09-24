@@ -5,7 +5,6 @@
   <artifactId>project100</artifactId>
   <packaging>jar</packaging>
   <version>1.0</version>
-  <name>makumba-archetype</name>
   <url>http://maven.apache.org</url>
   
    <repositories>
