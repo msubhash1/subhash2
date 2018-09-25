@@ -22,9 +22,6 @@
   
   <dependencies>
     <dependency>
-      <groupId>org.makumba</groupId>
-      <artifactId>makumba</artifactId>
-      <version>0.8.2.7.2</version>
     </dependency>
     <dependency>
       <groupId>hsqldb</groupId>
@@ -72,12 +69,7 @@
       <!-- Embedded Tomcat (package tomcat:run) -->
       <!-- Standalone Tomcat (package tomcat:deploy) -->
       <plugin>
-        
-        artifactId>maven-war-plugin</artifactId>
-                <version>2.1.1</version>
-                <extensions>false</extensions>
                 <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
     </plugins>
